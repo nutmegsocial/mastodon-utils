@@ -1,0 +1,13 @@
+diff --git a/app/javascript/styles/mastodon/tables.scss 
+b/app/javascript/styles/mastodon/tables.scss
+index b644b38f1..f7e6b4046 100644
+--- a/app/javascript/styles/mastodon/tables.scss
++++ b/app/javascript/styles/mastodon/tables.scss
+@@ -335,7 +335,7 @@ a.table-action-link {
+   &.optional .batch-table__toolbar,
+   &.optional .batch-table__row__select {
+     @media screen and (max-width: $no-gap-breakpoint) {
+-      display: none;
++      //display: none;
+     }
+   }
